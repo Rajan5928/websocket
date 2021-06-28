@@ -1,0 +1,32 @@
+.App{
+  background-color: #0d3b4f;
+  width:60%;
+  height:200px;
+  border:10px double white;
+  border-radius:10px;
+  margin: auto;
+  margin-top:100px;
+  color:white;
+  display: flex; 
+  align-items: center;
+}
+.first{
+  width:20%;
+  text-align: center;
+  font-size: 100px;
+}
+.App div+div{
+  width:40%;
+  padding:20px;
+  font-size: larger;
+}
+
+.last{
+  text-align: right;
+}
+.up{
+  color:lightgreen;
+}
+.down{
+  color:red;
+}
